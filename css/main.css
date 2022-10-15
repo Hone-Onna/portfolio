@@ -1,0 +1,50 @@
+/* Import Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html{
+    scroll-padding-top: 45px;
+}
+
+:root{
+    /* Principal Font*/
+
+    --font-Dangrek: 'Dangrek', cursive;
+
+    /* Principal Color*/
+
+    --Very-dark_cyan: rgb(28, 103, 88);
+    --color-lime_green: rgb(61, 131, 97);
+    --Grayish-yellow: rgb(214, 205, 164);
+    --Light-grayish_green: rgb(238, 242, 230);
+}
+body {
+    font-family: var(--font-Dangrek);
+    background-color: var(--Very-dark_cyan);
+}
+
+.custom-nav {
+
+}
+
+
+/* Home Section */
+#home{
+    height: 100vh;
+    padding-top: calc(6rem + 74px);
+    padding-bottom: 6rem;
+    text-align: center;
+    background: linear-gradient(rgba(162, 162, 162, 0.65), rgba(67, 66, 66, 0.65)), url("../img/programing.jpg") no-repeat scroll center center;
+    background-size: cover;
+}
+
+#home h2{
+    font-family: var(--font-Dangrek);
+    font-size: 80px;
+    color: var(--Light-grayish_green);
+    font-weight: 100;
+}
