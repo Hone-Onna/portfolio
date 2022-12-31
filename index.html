@@ -17,13 +17,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Bootstrap 5-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom Css -->
+    <link rel="stylesheet" href="css/main.css">
 
     <title>Jonatan Huergo Aguilar</title>
 </head>
 <body>
 
-<header>
-    <nav class="navbar navbar-expand-lg fixed-top">
+<header class="navigation fixed-top nav-bg">
+    <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Jonatan Huergo Aguilar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav" aria-controls="menuNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,303 +54,305 @@
         </div>
     </nav>
 </header>
-<main class="container-fluid">
-    <section class="mb-auto">
-        <div class="text-center">
-            <h2>Welcome</h2>
-            <h1>I'm Jonatan Huergo Aguilar</h1>
-            <p>Proactive Software Engineering, Graphic Designer and VideoGame Developer</p>
-            <a href="#">Know More</a>
+<section class=" align-items-center text-center presentation" id="#home">
+    <div class=" mt-5">
+        <h2>Welcome</h2>
+        <h1>I'm Jonatan Huergo Aguilar</h1>
+        <p>Proactive Software Engineering, Graphic Designer and VideoGame Developer</p>
+        <a href="#">Know More</a>
+    </div>
+</section>
+<section class="container-fluid py-5">
+    <div class="text-center mt-5">
+        <h3>About Me</h3>
+        <h2 class="mb-5" >Know More About Me</h2>
+    </div>
+    <div class="row py-5">
+        <div class="col-md-6">
+            <div class="container">
+                <img src="img/jonatanhuergo.png" class="img-fluid rounded-circle shadow w-56 " alt="Jonatan Huergo">
+            </div>
         </div>
-    </section>
-    <section class="container-fluid py-5">
-        <div class="container">
+        <div class="col-md-6 py-5">
+            <h2>
+                I'm
+                <span>Jonatan Huergo Aguilar</span>
+            </h2>
+            <p>I'm a software engineer, front-end web developer, and designer with a passion for web development and game development.</p>
+            <p>I enjoy developing simple, elegant websites, with structured and clean code, and video games that provide real value to the end user and provide a product have quality.</p>
+            <ul>
+                <li class="py-2">
+                    Name: Jonatan Huergo Aguilar
+                </li>
+                <li class="py-2">
+                    Email:
+                    <a href="mailto:huergojonatan4@gmail.com">huergojonatan4@gmail.com</a>
+                </li>
+                <li class=" py-2">
+                    Birthday: 08/31/1995
+                </li>
+                <li class="py-2">
+                    From: Colombia - South America
+                </li>
+                <li class="py-2">
+                    Living: Philippines
+                </li>
+            </ul>
             <div class="text-center">
-                <h3>About Me</h3>
-                <h2>Know More About Me</h2>
+                <a href="#" >
+                    Download CV
+                </a>
             </div>
-            <div class="row align-items-center py-5">
-                <div class="col-lg-5">
-                    <img class="img-fluid rounded-circle shadow w-100" src="img/jonatanhuergo.png" alt="Jonatan Huergo Aguilar">
-                </div>
-                <div class="col-lg-6 mt-5 py-5">
-                    <h2 class="mb-4">Jonatan Huergo Aguilar</h2>
-                    <p>I'm a software engineer, front-end web developer, and designer with a passion for web development and game development.</p>
-                    <p>I enjoy developing simple, elegant websites, with structured and clean code, and video games that provide real value to the end user and provide a product have quality.</p>
+        </div>
+    </div>
+</section>
+<section class="container-fluid py-5">
+    <div class="text-center">
+        <h3>What I Do?</h3>
+        <h2>How I can help your next project</h2>
+    </div>
+    <div class="row mt-5">
+        <div class="col-lg-4 col-md-6 text-center mt-5">
+            <i class="fa-solid fa-pen-nib"></i>
+            <h3>Graphic Design</h3>
+            <p>Logo design and management of some concepts of personal branding</p>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center mt-5">
+            <i class="fa-solid fa-computer"></i>
+            <h3>Front-End Development</h3>
+            <p>In Frontend development, my current stack involves Bootstrap and ReactJs</p>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center mt-5">
+            <i class="fa-solid fa-server"></i>
+            <h3>Back-End Development</h3>
+            <p>In back-end development, my current stack involves Python and NodeJS</p>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center mt-5">
+            <i class="fa-solid fa-gamepad"></i>
+            <h3>Game Development</h3>
+            <p>Knowledge in game design and development using Unreal and Unity</p>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center mt-5">
+            <i class="fa-solid fa-paintbrush"></i>
+            <h3>Concept Art</h3>
+            <p>Design and creation of characters and environment concept art for games</p>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center mt-5">
+            <i class="fa-solid fa-user-secret"></i>
+            <h3>Cybersecurity Researcher</h3>
+            <p>Self-taught malware researcher and IT vulnerability hunter</p>
+        </div>
+    </div>
+</section>
+<section class="container-fluid py-5">
+    <div class="text-center">
+        <h3>Resume</h3>
+        <h2>A Summary of My Resume</h2>
+    </div>
+    <div class="row text-center mt-5">
+        <div class="mt-1">
+            <h2>My Education</h2>
+        </div>
+        <div class="col-lg-6 col-md-6 mt-5">
+            <h3>2014 - 2021</h3>
+            <h3>Software Engineer</h3>
+            <p>Surcolombiana University</p>
+            <p>Entrepreneurial professional with in-depth knowledge of sciences and information and communication technologies,
+                with the ability to create and lead software development projects, with international quality criteria.</p>
+        </div>
+        <div class="col-lg-6 col-md-6 mt-5">
+            <h3>2006 - 2011</h3>
+            <h3>Technician with an emphasis in Agriculture</h3>
+            <p>Educational Institution Jorge Villamil Ortega</p>
+            <p>Technical Media with a specialty in agricultural production.</p>
+        </div>
+    </div>
+    <div class="row justify-content-center text-center">
+        <div class="mt-1">
+            <h2>My Experience</h2>
+        </div>
+        <div class="col-lg-6 col-md-6 mt-5">
+            <h3>2021/08 – 2021/11</h3>
+            <h3>Degree Thesis - Focused on Video games</h3>
+            <p>Surcolombiana University</p>
+            <p>Developing and creating video games to attained Engineering Degree.</p>
+            <ol>
+                <li>Concept Artist
                     <ul>
-                        <li class="py-2">
-                            Name: Jonatan Huergo Aguilar
-                        </li>
-                        <li class="py-2">
-                            Email:
-                            <a href="mailto:huergojonatan4@gmail.com">huergojonatan4@gmail.com</a>
-                        </li>
-                        <li class=" py-2">
-                            Birthday: 08/31/1995
-                        </li>
-                        <li class="py-2">
-                            From: Colombia - South America
-                        </li>
-                        <li class="py-2">
-                            Living: Philippines
-                        </li>
+                        <li>Character design and level theme</li>
                     </ul>
-                    <div class="d-flex justify-content-center">
-                        <a href="#">Download CV</a>
-                    </div>
-                </div>
+                </li>
+                <li>Game Developer
+                    <ul>
+                        <li>Development of procedural generation algorithm and final boss AI</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+        <div class="col-lg-6 col-md-6 mt-5">
+            <h3>2021/03 – 2021/05</h3>
+            <h3>Software Engineer</h3>
+            <p>LAPL Producciones - Argentina</p>
+            <p>Counseling on video game development</p>
+            <ul>
+                <li>Character Design in Concept Art</li>
+                <li>Video Game Design</li>
+                <li>Video Games Development</li>
+            </ul>
+        </div>
+    </div>
 
-            </div>
+    <div class="row text-center mt-5">
+        <div class="mt-1">
+            <h2>My Skills</h2>
         </div>
-    </section>
-    <section class="container-fluid py-5">
-        <div class="text-center">
-            <h3>What I Do?</h3>
-            <h2>How I can help your next project</h2>
+        <div class="col-lg-6">
+            <p>
+                Adobe Photoshop
+                <span>60%</span>
+            </p>
         </div>
-        <div class="row mt-5">
-            <div class="col-lg-4 col-md-6 text-center mt-5">
-                <i class="fa-solid fa-pen-nib"></i>
-                <h3>Graphic Design</h3>
-                <p>Logo design and management of some concepts of personal branding</p>
-            </div>
-            <div class="col-lg-4 col-md-6 text-center mt-5">
-                <i class="fa-solid fa-computer"></i>
-                <h3>Front-End Development</h3>
-                <p>In Frontend development, my current stack involves Bootstrap and ReactJs</p>
-            </div>
-            <div class="col-lg-4 col-md-6 text-center mt-5">
-                <i class="fa-solid fa-server"></i>
-                <h3>Back-End Development</h3>
-                <p>In back-end development, my current stack involves Python and NodeJS</p>
-            </div>
-            <div class="col-lg-4 col-md-6 text-center mt-5">
-                <i class="fa-solid fa-gamepad"></i>
-                <h3>Game Development</h3>
-                <p>Knowledge in game design and development using Unreal and Unity</p>
-            </div>
-            <div class="col-lg-4 col-md-6 text-center mt-5">
-                <i class="fa-solid fa-paintbrush"></i>
-                <h3>Concept Art</h3>
-                <p>Design and creation of characters and environment concept art for games</p>
-            </div>
-            <div class="col-lg-4 col-md-6 text-center mt-5">
-                <i class="fa-solid fa-user-secret"></i>
-                <h3>Cybersecurity Researcher</h3>
-                <p>Self-taught malware researcher and IT vulnerability hunter</p>
-            </div>
+        <div class="col-lg-6">
+            <p>
+                GNU / Linux
+                <span>60%</span>
+            </p>
         </div>
-    </section>
-    <section class="container-fluid py-5">
-        <div class="text-center">
-            <h3>Resume</h3>
-            <h2>A Summary of My Resume</h2>
+        <div class="col-lg-6">
+            <p>
+                Unreal Engine / Unity
+                <span>50%</span>
+            </p>
         </div>
-        <div class="row text-center mt-5">
-            <div class="mt-1">
-                <h2>My Education</h2>
-            </div>
-            <div class="col-lg-6 col-md-6 mt-5">
-                <h3>2014 - 2021</h3>
-                <h3>Software Engineer</h3>
-                <p>Surcolombiana University</p>
-                <p>Entrepreneurial professional with in-depth knowledge of sciences and information and communication technologies,
-                    with the ability to create and lead software development projects, with international quality criteria.</p>
-            </div>
-            <div class="col-lg-6 col-md-6 mt-5">
-                <h3>2006 - 2011</h3>
-                <h3>Technician with an emphasis in Agriculture</h3>
-                <p>Educational Institution Jorge Villamil Ortega</p>
-                <p>Technical Media with a specialty in agricultural production.</p>
-            </div>
+        <div class="col-lg-6">
+            <p>
+                C++
+                <span>40%</span>
+            </p>
         </div>
-        <div class="row justify-content-center text-center">
-            <div class="mt-1">
-                <h2>My Experience</h2>
-            </div>
-            <div class="col-lg-6 col-md-6 mt-5">
-                <h3>2021/08 – 2021/11</h3>
-                <h3>Degree Thesis - Focused on Video games</h3>
-                <p>Surcolombiana University</p>
-                <p>Developing and creating video games to attained Engineering Degree.</p>
-                <ol>
-                    <li>Concept Artist
-                        <ul>
-                            <li>Character design and level theme</li>
-                        </ul>
-                    </li>
-                    <li>Game Developer
-                        <ul>
-                            <li>Development of procedural generation algorithm and final boss AI</li>
-                        </ul>
-                    </li>
-                </ol>
-            </div>
-            <div class="col-lg-6 col-md-6 mt-5">
-                <h3>2021/03 – 2021/05</h3>
-                <h3>Software Engineer</h3>
-                <p>LAPL Producciones - Argentina</p>
-                <p>Counseling on video game development</p>
-                <ul>
-                    <li>Character Design in Concept Art</li>
-                    <li>Video Game Design</li>
-                    <li>Video Games Development</li>
-                </ul>
-            </div>
+        <div class="col-lg-6">
+            <p>
+                MySQL
+                <span>40%</span>
+            </p>
         </div>
-
-        <div class="row text-center mt-5">
-            <div class="mt-1">
-                <h2>My Skills</h2>
-            </div>
-            <div class="col-lg-6">
-                <p>
-                    Adobe Photoshop
-                    <span>60%</span>
-                </p>
-            </div>
-            <div class="col-lg-6">
-                <p>
-                    GNU / Linux
-                    <span>60%</span>
-                </p>
-            </div>
-            <div class="col-lg-6">
-                <p>
-                    Unreal Engine / Unity
-                    <span>50%</span>
-                </p>
-            </div>
-            <div class="col-lg-6">
-                <p>
-                    C++
-                    <span>40%</span>
-                </p>
-            </div>
-            <div class="col-lg-6">
-                <p>
-                    MySQL
-                    <span>40%</span>
-                </p>
-            </div>
-            <div class="col-lg-6">
-                <p>
-                    HTML / CSS / JavaScript
-                    <span>70%</span>
-                </p>
-            </div>
-            <div class="col-lg-6">
-                <p>
-                    Git
-                    <span>50%</span>
-                </p>
-            </div>
-            <div class="col-lg-6">
-                <p>
-                    Blender
-                    <span>40%</span>
-                </p>
-            </div>
-            <div class="col-lg-6">
-                <p>
-                    Python
-                    <span>40%</span>
-                </p>
-            </div>
-            <div class="col-lg-6">
-                <p>
-                    React / NodeJs
-                    <span>50%</span>
-                </p>
-            </div>
+        <div class="col-lg-6">
+            <p>
+                HTML / CSS / JavaScript
+                <span>70%</span>
+            </p>
         </div>
-        <div class="row text-center mt-5">
-            <div class="mt-1">
-                <h2>My Languages</h2>
-            </div>
-            <div class="col-lg-6">
-                <p>
-                    Spanish
-                    <span>100%</span>
-                </p>
-            </div>
-            <div class="col-lg-6">
-                <p>
-                    English
-                    <span>60%</span>
-                </p>
-            </div>
-            <div class="col-lg-6">
-                <p>
-                    Japanese
-                    <span>30%</span>
-                </p>
-            </div>
-            <div class="col-lg-6">
-                <p>
+        <div class="col-lg-6">
+            <p>
+                Git
+                <span>50%</span>
+            </p>
+        </div>
+        <div class="col-lg-6">
+            <p>
+                Blender
+                <span>40%</span>
+            </p>
+        </div>
+        <div class="col-lg-6">
+            <p>
+                Python
+                <span>40%</span>
+            </p>
+        </div>
+        <div class="col-lg-6">
+            <p>
+                React / NodeJs
+                <span>50%</span>
+            </p>
+        </div>
+    </div>
+    <div class="row text-center mt-5">
+        <div class="mt-1">
+            <h2>My Languages</h2>
+        </div>
+        <div class="col-lg-6">
+            <p>
+                Spanish
+                <span>100%</span>
+            </p>
+        </div>
+        <div class="col-lg-6">
+            <p>
+                English
+                <span>60%</span>
+            </p>
+        </div>
+        <div class="col-lg-6">
+            <p>
+                Japanese
+                <span>30%</span>
+            </p>
+        </div>
+        <div class="col-lg-6">
+            <p>
                 Tagalog
                 <span>10%</span>
-                </p>
-            </div>
-            <a href="#">Download CV</a>
+            </p>
         </div>
-    </section>
-    <section class="container-fluid py-1">
-        <div class="text-center">
-            <h2>Let's get in touch</h2>
-            <p>I enjoy discussing new projects and design and developer challenges. Please share as much info, as possible,
-                so we can get the most out of our first catch-up.</p>
+        <a href="#">Download CV</a>
+    </div>
+</section>
+<section class="container-fluid py-1">
+    <div class="text-center">
+        <h2>Let's get in touch</h2>
+        <p>I enjoy discussing new projects and design and developer challenges. Please share as much info, as possible,
+            so we can get the most out of our first catch-up.</p>
+    </div>
+    <div class="row justify-content-center text-center">
+        <div class="col-lg-3 mt-5">
+            <i class="fa-solid fa-earth-americas"></i>
+            <h3>Address</h3>
+            <p>Manila Philippines</p>
         </div>
-        <div class="row justify-content-center text-center">
-            <div class="col-lg-3 mt-5">
-                <i class="fa-solid fa-earth-americas"></i>
-                <h3>Address</h3>
-                <p>Manila Philippines</p>
-            </div>
-            <div class="col-lg-3 mt-5">
-                <i class="fa-solid fa-mobile"></i>
-                <h3>Contact Number</h3>
-                <p>+63 9687774483</p>
-            </div>
-            <div class="col-lg-3 mt-5">
-                <i class="fa-solid fa-envelope"></i>
-                <h3>Email Address</h3>
-                <p><a href="mailto:shvana@naver.com">shvana@naver.com</a></p>
-            </div>
+        <div class="col-lg-3 mt-5">
+            <i class="fa-solid fa-mobile"></i>
+            <h3>Contact Number</h3>
+            <p>+63 9687774483</p>
+        </div>
+        <div class="col-lg-3 mt-5">
+            <i class="fa-solid fa-envelope"></i>
+            <h3>Email Address</h3>
+            <p><a href="mailto:shvana@naver.com">shvana@naver.com</a></p>
+        </div>
 
-        </div>
-        <div class="row py-5">
-            <div class="container text-center">
-                <div class="d-flex justify-content-center py-5">
-                    <a href="https://www.facebook.com/Jonatanhuergoaguilar" target="_blank" title="Facebook">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-                    <a href="https://twitter.com/jonatanH_jp" target="_blank" title="Twitter">
-                        <i class="fa-brands fa-twitter"></i>
-                    </a>
-                    <a href="https://www.instagram.com/jonatanhuergoaguilar" target="_blank" title="Instagram">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/jonatanhuergoaguilar" target="_blank" title="LinkedIn">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/jonatanhuergoaguilar" target="_blank" title="GitHub">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                    <a href="https://www.artstation.com/jonatanhuergoaguilar" target="_blank" title="ArtStation">
-                        <i class="fa-brands fa-artstation"></i>
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCgMJ0WTnUrYmoW5Rg3qdBFQ" target="_blank" title="YouTube">
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
-                </div>
-                <div>
-                    <p>Copyright &copy; Jonatan Huergo Aguilar 2022</p>
-                </div>
+    </div>
+    <div class="row py-5">
+        <div class="container text-center">
+            <div class="d-flex justify-content-center py-5">
+                <a class="btn btn-dark" href="https://www.facebook.com/Jonatanhuergoaguilar" target="_blank" title="Facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a class="btn btn-dark" href="https://twitter.com/jonatanH_jp" target="_blank" title="Twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a class="btn btn-dark" href="https://www.instagram.com/jonatanhuergoaguilar" target="_blank" title="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a class="btn btn-dark" href="https://www.linkedin.com/in/jonatanhuergoaguilar" target="_blank" title="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a class="btn btn-dark" href="https://github.com/jonatanhuergoaguilar" target="_blank" title="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a class="btn btn-dark" href="https://www.artstation.com/jonatanhuergoaguilar" target="_blank" title="ArtStation">
+                    <i class="fa-brands fa-artstation"></i>
+                </a>
+                <a class="btn btn-dark" href="https://www.youtube.com/channel/UCgMJ0WTnUrYmoW5Rg3qdBFQ" target="_blank" title="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+            <div>
+                <p>Copyright &copy; Jonatan Huergo Aguilar 2022</p>
             </div>
         </div>
-    </section>
-</main>
+    </div>
+</section>
 
 
 <!-- Bootstrap JS -->
