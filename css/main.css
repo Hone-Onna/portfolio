@@ -91,11 +91,7 @@ p.hero-paragraph {
 }
 
 
-.image{
-    height: 350px;
-    width: 350px;
-    border: 4px solid #000080FF;
-}
+
 
 #about h3 {
     font-weight: bold;
@@ -109,4 +105,50 @@ p.hero-paragraph {
     font-size: 50px;
     color: #000080FF;
     padding-top: 40px;
+}
+#about h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0d0dff;
+    padding-bottom: 20px;
+}
+
+#about p{
+    font-size: 18px;
+    color: #000080FF;
+    text-align: justify;
+}
+#about ul li {
+    list-style: none;
+    font-size: 18px;
+    color: #0d0dff;
+}
+#about ul li span{
+    font-size: 19px;
+    font-weight: bold;
+    color:#000080FF;
+}
+#about ul li a {
+    color: #0d0dff;
+}
+#about ul li a:hover {
+    color: #000080FF ;
+}
+.btn-about {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 16px 43px;
+    border-radius: 50px ;
+    background-color: #0d0dff;
+    color: #FFFFFFFF;
+}
+.btn-about:hover {
+    background-color: #000080FF;
+    color: #FFFFFFFF;
+}
+.image{
+    height: auto;
+    width: 430px;
+    border: 4px solid #000080FF;
 }
