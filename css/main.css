@@ -39,7 +39,7 @@ a{
     font-size: 17px;
 }
 .nav-link:hover{
-    color: #000080FF;
+    color: hsl(240, 100%, 25%);
     font-weight: bold;
 }
 .hero {
@@ -53,12 +53,12 @@ a{
 h1.hero-tile{
     font-size: 56px;
     font-weight: bolder;
-    color: #000080FF;
+    color: hsl(240, 100%, 25%);
     padding-top: 90px;
 }
 
 h2.hero-subtitle {
-    color:#000080FF;
+    color:hsl(240, 100%, 25%);
     font-size: 45px;
     font-weight: bold;
 }
@@ -86,7 +86,7 @@ p.hero-paragraph {
 }
 
 .btn-hero:hover{
-    background-color: #000080FF;
+    background-color: hsl(240, 100%, 25%);
     color: #FFFFFFFF;
 }
 
@@ -103,7 +103,7 @@ p.hero-paragraph {
 #about .about-main{
     font-weight: bold;
     font-size: 50px;
-    color: #000080FF;
+    color: hsl(240, 100%, 25%);
     padding-top: 40px;
 }
 #about h2{
@@ -115,7 +115,7 @@ p.hero-paragraph {
 
 #about p{
     font-size: 18px;
-    color: #000080FF;
+    color: hsl(240, 100%, 25%);
     text-align: justify;
 }
 #about ul li {
@@ -126,13 +126,13 @@ p.hero-paragraph {
 #about ul li span{
     font-size: 19px;
     font-weight: bold;
-    color:#000080FF;
+    color:hsl(240, 100%, 25%);
 }
 #about ul li a {
     color: #0d0dff;
 }
 #about ul li a:hover {
-    color: #000080FF ;
+    color: hsl(240, 100%, 25%) ;
 }
 .btn-about {
     font-size: 16px;
@@ -144,11 +144,65 @@ p.hero-paragraph {
     color: #FFFFFFFF;
 }
 .btn-about:hover {
-    background-color: #000080FF;
+    background-color: hsl(240, 100%, 25%);
     color: #FFFFFFFF;
 }
 .image{
     height: auto;
     width: 430px;
-    border: 4px solid #000080FF;
+    border: 4px solid hsl(240, 100%, 25%);
+}
+
+#service .service-title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #0d0dff;
+    padding-top: 30px;
+}
+#service .service-main {
+    font-weight: bold;
+    font-size: 50px;
+    color: hsl(240, 100%, 25%);
+    padding-top: 40px;
+}
+#service .card {
+    padding: 45px 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: 0 2px 3px 0 rgb(0, 71, 171);
+}
+/*
+#service .card:hover {
+    background-color: hsl(240, 100%, 95%);
+    color: hsl(240, 100%, 25%);
+}
+*/
+
+#service .service-icon {
+    margin: 0 auto 20px auto;
+    height: 60px;
+    width: 60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: #0a53be;
+    color: #ffffff;
+    font-size: 20px;
+}
+#service .service-icon:hover {
+    background-color: #0d0dff;
+    color: white;
+    font-size: 25px;
+}
+#service h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: hsl(240, 100%, 25%);
+}
+#service p {
+    font-size: 16px;
+    color: #0d0dff;
+    padding-top: 10px;
 }
