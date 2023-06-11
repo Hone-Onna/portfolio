@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap');
 *,
 *::before,
 *::after {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+a{
+    text-decoration: none;
 }
 
 .navigation {
@@ -9,9 +21,92 @@
 
 }
 .navigation.nav-bg {
-    background-color: #655f70;
     padding: 15px 20px;
+    background-color: #ffff;
+}
+
+.navbar-brand{
+    color: #0d0dff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    color: #0d0dff;
+
+}
+.nav-link {
+    color: #0d0dff;
+    font-size: 17px;
+}
+.nav-link:hover{
+    color: #000080FF;
+    font-weight: bold;
+}
+.hero {
+    padding-top: 85px;
+    background-image: url("../img/dot-grid.png");
+    background-position: center;
+    position: relative;
+
+}
+
+h1.hero-tile{
+    font-size: 56px;
+    font-weight: bolder;
+    color: #000080FF;
+    padding-top: 90px;
+}
+
+h2.hero-subtitle {
+    color:#000080FF;
+    font-size: 45px;
+    font-weight: bold;
+}
+span.auto-type{
+    color: #0d0dff;
+    font-weight: bold;
+}
+p.hero-paragraph {
+    font-size: 21px;
+    font-weight: bold;
+    font-style: italic;
+    color:#0d0dff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.btn-hero {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 16px 43px;
+    border-radius: 50px ;
+    background-color: #0d0dff;
+    color: #FFFFFFFF;
+}
+
+.btn-hero:hover{
+    background-color: #000080FF;
+    color: #FFFFFFFF;
 }
 
 
+.image{
+    height: 350px;
+    width: 350px;
+    border: 4px solid #000080FF;
+}
 
+#about h3 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #0d0dff;
+    padding-top: 30px;
+}
+
+#about .about-main{
+    font-weight: bold;
+    font-size: 50px;
+    color: #000080FF;
+    padding-top: 40px;
+}
